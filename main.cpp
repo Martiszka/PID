@@ -4,6 +4,6 @@ using namespace std;
 
 int main()
 {
-    cout << "PID" << endl;
+    cout << "PID obiektowo" << endl;
     return 0;
 }
