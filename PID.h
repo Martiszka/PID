@@ -17,6 +17,6 @@ public:
     uint16_t getOutput(uint16_t);
     void write();
     void pid(uint16_t); //, uint16_t) ;
-    PID(uint16_t=0, uint16_t=0, uint16_t=0, uint16_t=10); //domyslne wartosci pk, pi, pd, okres_probkowania
+    PID(uint16_t=0, uint16_t=0, uint16_t=0, uint16_t=10); //domyslne wartosci pk, ti, td, okres_probkowania
     ~PID();
 };
